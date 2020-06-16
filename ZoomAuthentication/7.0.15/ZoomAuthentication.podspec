@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.3"
 
-  s.source       = { :http => "https://s3.amazonaws.com/app.tradle.io/sdk/ZoomAuthentication-ios-7.0.15.zip" }
+  s.source       = { :http => "https://s3.amazonaws.com/app.tradle.io/sdk/facetec-zoom/ios/8.1.0/ZoomAuthentication.framework.zip" }
 
   s.framework 	 = "ZoomAuthentication"
-  s.vendored_frameworks = "ZoomAuthentication-ios-7.0.15/ZoomAuthentication.framework"
+  s.vendored_frameworks = "ZoomAuthentication.framework"
 
 end
