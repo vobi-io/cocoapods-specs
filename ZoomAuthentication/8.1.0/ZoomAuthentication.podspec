@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZoomAuthentication"
-  s.version      = "7.0.18"
+  s.version      = "8.1.0"
   s.summary      = "FaceTec's ZoOm iOS SDK - 3D Face Login + TrueLiveness"
   s.homepage     = "https://dev.zoomlogin.com"
   s.license      = { type: 'custom', text: 'ZoomAuthentication is Copyright 2018 FaceTec, Inc.  It may not be modified.' }
