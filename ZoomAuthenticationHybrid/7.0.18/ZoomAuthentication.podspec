@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "ZoomAuthenticationHybrid"
+  s.name         = "ZoomAuthentication"
   s.version      = "7.0.18"
   s.summary      = "FaceTec's ZoOm iOS SDK - 3D Face Login + TrueLiveness"
   s.homepage     = "https://dev.zoomlogin.com"
@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.3"
 
-  s.source       = { :http => "http://cocoapods.facetec.com/zoom-authentication/ZoomAuthentication-ios-7.0.18.zip" }
+  s.source       = { :http => "https://s3.amazonaws.com/app.tradle.io/sdk/ZoomAuthentication-ios-7.0.15.zip" }
 
-  s.framework 	 = "ZoomAuthenticationHybrid"
-  s.vendored_frameworks = "ZoomAuthentication-ios-7.0.18/ZoomAuthenticationHybrid.framework"
+  s.framework 	 = "ZoomAuthentication"
+  s.vendored_frameworks = "ZoomAuthentication-ios-7.0.15/ZoomAuthentication.framework"
 
 end
